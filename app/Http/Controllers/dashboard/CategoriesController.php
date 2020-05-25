@@ -88,6 +88,6 @@ class CategoriesController extends Controller
     public function destroy(Categories $categories)
     {
         $categories->delete();
-        return back()->with('status','Post deleted succesfully');
+        return back()->with('status','Categorie deleted succesfully');
     }
 }
