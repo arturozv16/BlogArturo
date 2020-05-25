@@ -76,7 +76,7 @@ class CategoriesController extends Controller
     public function update(StoreCatCat $request, Categories $categories)
     {
         $categories->update($request->validated());
-       return back()->with('status','Categorie updated succesfully');
+       return back()->with('status','Categorie updated succesfully carnal');
     }
 
     /**
